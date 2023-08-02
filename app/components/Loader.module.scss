@@ -1,0 +1,41 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #273069;
+  font-size: 3rem;
+  color: #ec661b;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  margin: 0 0.3rem;
+}
+
+.bar-container {
+  width: 200px;
+  height: 10px;
+  background-color: #ec661b;
+  margin-top: 1rem;
+}
+
+.bar {
+  height: 100%;
+  background-color: #f8d49d;
+  width: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
