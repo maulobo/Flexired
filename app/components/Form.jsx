@@ -86,7 +86,7 @@ export default function Form() {
   }
 
   async function enviarZapier(datos) {
-    const respuesta = await fetch("", {
+    const respuesta = await fetch("mail.php", {
       method: "POST",
       mode: "no-cors",
       headers: {

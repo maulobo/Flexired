@@ -1,4 +1,4 @@
-// File: /Users/maurolobo/Programacion/Next Js/flexiLL/app/page.js
+// File: /Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
