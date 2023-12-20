@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import * as Yup from "yup";
 import style from "./form.module.scss";
+import axios from "axios";
 
 export default function Form() {
   const inicialForm = {
@@ -86,16 +87,12 @@ export default function Form() {
   }
 
   async function enviarZapier(datos) {
-    const respuesta = await fetch("mail.php", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(datos),
-    });
-
-    return respuesta;
+    try {
+      const respuesta = await axios.post("mail.php", datos);
+      return respuesta;
+    } catch (error) {
+      throw new Error("Error al enviar el formulario: " + error.message);
+    }
   }
 
   function enviarFormulario(evento) {
