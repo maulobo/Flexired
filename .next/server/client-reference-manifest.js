@@ -742,6 +742,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/registry.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/registry.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/registry.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/registry.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/icon.png": {
       "*": {
         "id": "(sc_client)/./app/icon.png",
@@ -1329,41 +1355,15 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./app/registry.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/registry.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/registry.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/registry.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -3063,6 +3063,79 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/300.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/400.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/500.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/700.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/bootstrap/dist/css/bootstrap.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/registry.tsx": {
+      "id": "(app-client)/./app/registry.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/registry.tsx#": {
+      "id": "(app-client)/./app/registry.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/registry.tsx#default": {
+      "id": "(app-client)/./app/registry.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/components/Loader.module.scss#": {
       "id": "null",
       "name": "default",
@@ -3902,79 +3975,6 @@ self.__RSC_MANIFEST={
       "name": "value",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/300.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/400.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/500.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/700.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/bootstrap/dist/css/bootstrap.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/registry.tsx": {
-      "id": "(app-client)/./app/registry.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/registry.tsx#": {
-      "id": "(app-client)/./app/registry.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/registry.tsx#default": {
-      "id": "(app-client)/./app/registry.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }

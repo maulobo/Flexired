@@ -1,5 +1,14 @@
 {
   "cssImports": {
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/layout.js": [
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/globals.css",
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/300.css",
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/400.css",
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/500.css",
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/700.css",
+      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/bootstrap/dist/css/bootstrap.css"
+    ],
     "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/page.js": [
       "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/components/cambiar.module.scss",
       "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/components/descubre.module.scss",
@@ -15,15 +24,6 @@
       "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/components/BVirtualScroll.scss",
       "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/components/Loader.module.scss",
       "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/components/navegacion.module.scss"
-    ],
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/layout.js": [
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/globals.css",
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/300.css",
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/400.css",
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/500.css",
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/@fontsource/roboto/700.css",
-      "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/node_modules/bootstrap/dist/css/bootstrap.css"
     ]
   },
   "cssModules": {
