@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Enviar el correo
     mail($destinatario, $asunto, $cuerpo, $cabeceras);
-    echo("iiujuuuuu")
+
     header("Location: /");
     exit();
 }
