@@ -114,7 +114,7 @@ function ColorSchemesExample({ ref1 }) {
           ))}
         </Navbar.Content>
 
-        <Image src={img} width={45} height={30} />
+        <Image src={img} alt="alt" width={45} height={30} />
         <Navbar.Collapse>
           {paginas.map((item, index) => (
             <Navbar.CollapseItem

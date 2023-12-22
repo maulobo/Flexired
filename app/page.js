@@ -15,7 +15,7 @@ import Loader from "./components/Loader";
 import Navegacion from "./components/Navegacion";
 
 export default function Home() {
-  const [preloader, setpreloader] = useState(true);
+  const [preloader, setpreloader] = useState(false);
 
   const [timer, setTimer] = useState(4);
 

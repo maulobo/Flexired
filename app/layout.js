@@ -18,9 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <head>
-        <link rel="icon" href="icon" type="image/png" />
-      </head>
+      <head></head>
       <body>
         <StyledJsxRegistry>{children}</StyledJsxRegistry>
       </body>

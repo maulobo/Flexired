@@ -48,7 +48,6 @@ const NuestrosServicios = () => {
         start: "top 700px",
         end: `+=${window.innerHeight / 1.7}`,
         scrub: true,
-        markers: true,
       },
     });
   };
@@ -96,7 +95,7 @@ const NuestrosServicios = () => {
       </section>
       <section className={style.downBox}>
         {boxes.map(({ id, info, buton, styless }) => (
-          <div className={style.child}>
+          <div key={id} className={style.child}>
             <div className={styless || style.boxes}>
               <h3 className={style.font}>{info}</h3>
               {buton}

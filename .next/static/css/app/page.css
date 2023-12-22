@@ -1140,7 +1140,7 @@
   display: flex;
   justify-content: center;
   text-align: end;
-  align-items: end;
+  align-items: flex-end;
 }
 .footer_footer__B6zrw .footer_footer2__VXekV p {
   padding: 1rem 2rem 1rem 2rem;

@@ -10,16 +10,19 @@ import { IconContext } from "react-icons";
 
 const cardis = [
   {
+    id: 1,
     icono: <BsTelephone />,
     info: 321321321,
   },
   {
+    id: 2,
     tipo: "enlace",
     icono: <AiOutlineMail />,
     info: "algo@mail.com",
     enlace: "https://developer.mozilla.org/es/docs/Web/HTML/Element/button",
   },
   {
+    id: 3,
     enlace: "",
     icono: <FiMapPin />,
     info: "la ubicacion",
@@ -62,6 +65,7 @@ const Contactanos = () => {
         <article className={style.contCards} ref={parentRef}>
           {cardis.map((el) => (
             <Cardsita
+              key={el.id}
               drag={true}
               icono={el.icono}
               info={el.info}

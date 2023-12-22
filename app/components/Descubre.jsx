@@ -4,7 +4,7 @@ import DivAnimateB from "./animated/DivAnimateB";
 import style from "./descubre.module.scss";
 import MyButton2 from "./MyButton2";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 const Descubre = () => {
   const phrase = "Descubre los mejores servicios para tu empresa";
@@ -27,7 +27,6 @@ const Descubre = () => {
         start: "top 700px",
         end: `+=${window.innerHeight / 1.7}`,
         scrub: true,
-        markers: true,
       },
     });
   };
