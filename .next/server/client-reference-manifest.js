@@ -1362,11 +1362,11 @@ self.__RSC_MANIFEST={
     "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/page": [
       "static/css/app/page.css"
     ],
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/layout": [
-      "static/css/app/layout.css"
-    ],
     "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/loading": [
       "static/css/app/loading.css"
+    ],
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/layout": [
+      "static/css/app/layout.css"
     ]
   },
   "clientModules": {
@@ -3908,6 +3908,13 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/Loader.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/loading.css"
+      ]
+    },
     "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -3980,13 +3987,6 @@ self.__RSC_MANIFEST={
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
-    },
-    "/Users/maurolobo/Programacion/Next Js/flexiLL/flexi/Flexired/app/Loader.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/loading.css"
-      ]
     }
   }
 }

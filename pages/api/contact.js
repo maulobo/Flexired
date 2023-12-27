@@ -19,7 +19,6 @@ const handler = async (req, res) => {
           <p>¡Revisa tu bandeja para responder!</p>
         `,
       });
-      console.log("enviadisimo");
       return res.status(200).json({ success: "true" });
     } catch (error) {
       console.log(error);

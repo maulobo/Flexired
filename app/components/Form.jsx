@@ -86,19 +86,6 @@ export default function Form() {
     }
   }
 
-  async function enviarZapier(datos) {
-    const respuesta = await fetch("mail.php", {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(datos),
-    });
-
-    return respuesta;
-  }
-
   function enviarFormulario(evento) {
     evento.preventDefault();
     let erroresFormulario = {};

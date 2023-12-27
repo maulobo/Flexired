@@ -7,9 +7,7 @@ const Cambiate = () => {
   return (
     <div className={style.container}>
       <div className={style.box1}>
-        <div className={style.boxA}>
-          <Scene />
-        </div>
+        <div className={style.boxA}></div>
         <div className={style.box}>
           <article className={style.neonText}>
             <span className={style.letter}>CAMBIATE A</span>
